@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ItemActivity"
+    android:background="#1c223c">
+
+    <ImageView
+        android:id="@+id/item_list_image_one"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/fly_to_moon" />
+
+    <TextView
+        android:id="@+id/item_list_title_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/russo_one"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="TextView"
+        android:textColor="#e5d4b6"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/orienta"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:textSize="17sp"
+        android:text="TextView"
+        android:textColor="#e5d4b6" />
+    
+    <Button
+        android:id="@+id/button_buy"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#f55e1c"
+        android:fontFamily="@font/orienta"
+        android:text="Купить"
+        android:textColor="#e5d4b6" />
+
+</LinearLayout>

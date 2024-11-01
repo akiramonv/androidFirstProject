@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1c223c"
+    tools:context=".AuthActivity">
+
+    <TextView
+        android:id="@+id/font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/russo_one"
+        android:text="Авторизация"
+        android:textColor="#e5d4b6"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_login_auth"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="@font/orienta"
+        android:hint="Введите логин"
+        android:inputType="text"
+        android:textColor="#e5d4b6"
+        android:textColorHint="#6a6a6a" />
+
+
+    <EditText
+        android:id="@+id/user_pass_auth"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="@font/orienta"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:textColor="#e5d4b6"
+        android:textColorHint="#6a6a6a" />
+
+    <Button
+        android:id="@+id/button_auth"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/orienta"
+        android:text="Войти"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#e5d4b6"
+        android:layout_gravity="center"
+        android:backgroundTint="#f55e1c"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/link_to_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/russo_one"
+        android:text="Создать аккаунт"
+        android:textColor="#e5d4b6"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/alef</item>
+        <item>@font/exo_2_bold</item>
+        <item>@font/istok_web</item>
+        <item>@font/lato_bold</item>
+        <item>@font/lato_thin</item>
+        <item>@font/noto_sans_arabic_thin</item>
+        <item>@font/orienta</item>
+        <item>@font/pt_sans_bold</item>
+        <item>@font/pt_sans_caption_bold</item>
+        <item>@font/rajdhani_bold</item>
+        <item>@font/russo_one</item>
+    </array>
+</resources>
