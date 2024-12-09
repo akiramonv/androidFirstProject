@@ -12,18 +12,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
         android:fontFamily="@font/russo_one"
-        android:text="Игры"
+        android:text="GVault"
         android:textColor="#e5d4b6"
         android:textSize="30sp"
         android:textStyle="bold" />
 
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/itemsList"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginVertical="30dp"
+        android:layout_marginVertical="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

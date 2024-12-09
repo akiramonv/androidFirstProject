@@ -57,13 +57,7 @@
         android:backgroundTint="#f55e1c"
         android:fontFamily="@font/orienta"
         android:text="Назад"
-        android:layout_marginStart="140dp"
+        android:layout_marginStart="100dp"
         android:textColor="#e5d4b6" />
-
-    <WebView
-        android:id="@+id/webView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone" />
 
 </LinearLayout>

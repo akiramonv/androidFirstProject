@@ -58,6 +58,7 @@ class ItemActivity() : AppCompatActivity(), Parcelable {
             startActivity(intent)
         }
 
+
         buttonPrev.setOnClickListener{
             val intent = Intent(this, ItemsActivity::class.java)
             startActivity(intent)
